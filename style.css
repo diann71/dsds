@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box; 
+}
+
+body{
+    font-family: sans-serif;
+    background: url("images/bg1.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main{
+    color: black;
+}
+span{
+    color: rgb(204, 171, 109);;
+}
+nav{
+    background-color: rgb(42, 41, 41);
+    height: 3.8rem;
+    width: 100%;
+}
+.navbar ul{ 
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 60px;
+    margin: 0 5px;
+}
+.navbar ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px  13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+    color: orange;
+}
+.about{
+    border: 1px solid black;
+    padding: 24px;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1rem;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    font-weight: 500;
+    margin-bottom: 5rem;
+}
+td, th{
+    padding: 3px;
+    border: 2px solid black;
+}
+tr{
+    text-align: center;
+}
+ 
